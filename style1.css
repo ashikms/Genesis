@@ -1,0 +1,153 @@
+<style>
+
+body {
+font-family: sans-serif;
+background-color: aqua;
+background-image: url("SEO.jpg");
+background-repeat: no-repeat;
+}
+
+/*.tab{
+    overflow: visible;
+    border: 10px solid #ccc;
+    background-color: #f1f1f1;
+
+    
+}
+*/
+
+
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: orange;
+    /*float: left;*/
+    /*border: none;*/
+    outline: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    transition: 0.3s;
+    font-size: 17px;
+    display: inline;
+    text-align: center;
+   margin: auto;
+    margin-left: 150px;
+
+}
+
+.tab1 button{
+    background-color: orange;
+    /*float: left;*/
+    /*border: none;*/
+    outline: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    transition: 0.3s;
+    font-size: 17px;
+    display: inline;
+    text-align: center;
+   margin: auto;
+    margin-left: 300px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab1 button:hover{
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;*/
+    
+}
+.tab1 button.active {
+    background-color: #ccc;*/
+    
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+
+/*.login
+{
+    text-align: center;
+    padding:10px 10px;
+    
+}
+.login form{
+    padding: 20px;
+}
+*/
+
+nav ul form
+{
+float: center;
+    margin-top: 100px;
+}
+nav ul form input{
+    /*border: none;
+    margin-right: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;*/
+    
+    margin-left: 200px;
+    margin:auto;
+    width: 150px;
+    display: block;
+    /*margin-bottom: 20px;
+    margin-left: 550px;*/
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    border: 3px solid;
+
+}
+nav ul form button{
+    
+    /*border: none;
+    margin-right: 600px;*/
+    
+    margin:auto;
+    width: 100px;
+    background-color: white;
+    color: #111;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+display: block;
+    border: 3px solid;
+    /*margin-left: 620px;*/
+     -webkit-animation: mymove 5s; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+    
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+nav ul form button:hover
+{
+    width: 95px;
+    height: 50px;
+}
+
+</style>
